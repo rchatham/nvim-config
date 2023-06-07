@@ -15,16 +15,16 @@ return require('packer').startup(function(use)
 
   use 'echasnovski/mini.colors'
 
-  use({ 
-	  'rose-pine/neovim', 
-	  as = 'rose-pine', 
+  use({
+	  'rose-pine/neovim',
+	  as = 'rose-pine',
 	  -- requires = { {'echasnovski/mini.nvim'} },
-	  config = function() 
+	  config = function()
 		  -- Requires `rose-pine/neovim` and `echasnovski/mini.colors`
 		  vim.cmd('colorscheme rose-pine')
 		  require("mini.colors").get_colorscheme():add_cterm_attributes():apply()
 		  vim.opt.termguicolors = false
-	  end 
+	  end
   })
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -32,5 +32,24 @@ return require('packer').startup(function(use)
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
-  
+  use({
+	'VonHeikemen/lsp-zero.nvim',
+	branch = 'v2.x',
+	requires = {
+		-- LSP Support
+		{'neovim/nvim-lspconfig'},             -- Required
+		{                                      -- Optional
+		  'williamboman/mason.nvim',
+		  run = function()
+			  pcall(vim.cmd, 'MasonUpdate')
+		  end,
+	  	},
+	  	{'williamboman/mason-lspconfig.nvim'}, -- Optional
+
+	  	-- Autocompletion
+	  	{'hrsh7th/nvim-cmp'},     -- Required
+	  	{'hrsh7th/cmp-nvim-lsp'}, -- Required
+	  	{'L3MON4D3/LuaSnip'},     -- Required
+  	}
+	})
 end)
