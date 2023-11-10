@@ -4,6 +4,8 @@
 - https://github.com/jdhao/nvim-config
   - https://jdhao.github.io/2021/12/31/using_nvim_after_three_years/#what-remains-what-has-changed-and-some-new-plugins
 - https://github.com/omerxx/dotfiles/tree/master/nvim
+- https://github.com/rockerBOO/dotfiles/tree/current
+- https://github.com/doctorfree/dotfiles-macos
 
 - 
 - https://github.com/ThePrimeagen/git-worktree.nvim
