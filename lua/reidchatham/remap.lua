@@ -25,7 +25,7 @@ vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- delete without overwriting the default register
-vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
+vim.keymap.set({ "n", "v" }, "D", [["_d]])
 
 -- map <C-c> to Esc in insert mode
 vim.keymap.set("i", "<C-c>", "<Esc>")

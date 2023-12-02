@@ -1,10 +1,10 @@
 return {
     { 'nvim-treesitter/playground' },
     { 'theprimeagen/refactoring.nvim' },
-    { "nvim-treesitter/nvim-treesitter-context" },
+    { 'nvim-treesitter/nvim-treesitter-context' },
     { 'eandrju/cellular-automaton.nvim' },
     { 'folke/zen-mode.nvim' },
-    { 'akinsho/git-conflict.nvim', version = "*", config = true },
+    { 'ThePrimeagen/vim-be-good' },
     {
         'williamboman/mason.nvim',
         lazy = false,
