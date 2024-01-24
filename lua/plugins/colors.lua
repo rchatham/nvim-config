@@ -10,7 +10,4 @@ end
 
 return {
     'echasnovski/mini.colors',
-    init = function()
-        ColorMyPencils()
-    end
 }
