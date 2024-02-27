@@ -27,7 +27,6 @@
 - [ ] https://github.com/lukas-reineke/indent-blankline.nvim
 - [ ] https://gitlab.com/HiPhish/rainbow-delimiters.nvim
 - [ ] https://github.com/kylechui/nvim-surround
-- [ ] 
 
 ### navigation
 - [ ] https://github.com/Cassin01/wf.nvim
