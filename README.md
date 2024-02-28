@@ -20,6 +20,7 @@
 
 ### viewing
 - [ ] https://github.com/iamcco/markdown-preview.nvim
+- [ ] https://github.com/folke/zen-mode.nvim
 
 ### editing
 - [ ] https://github.com/debugloop/telescope-undo.nvim
@@ -27,22 +28,27 @@
 - [ ] https://github.com/lukas-reineke/indent-blankline.nvim
 - [ ] https://gitlab.com/HiPhish/rainbow-delimiters.nvim
 - [ ] https://github.com/kylechui/nvim-surround
+- [ ] https://github.com/ThePrimeagen/refactoring.nvim
 
 ### navigation
 - [ ] https://github.com/Cassin01/wf.nvim
 
 ### git
 - [ ] https://github.com/fredeeb/tardis.nvim
+- [ ] https://github.com/sindrets/diffview.nvim
 
 ### games/practice
 - [ ] https://github.com/m4xshen/hardtime.nvim
 - [ ] https://github.com/kawre/leetcode.nvim
+- [ ] https://github.com/ThePrimeagen/vim-be-good
 
 ### testing
 - [ ] https://github.com/nvim-neotest/neotest
 
 ### ai
 - [ ] https://github.com/sourcegraph/sg.nvim
-- [ ] 
+- [ ] https://github.com/zbirenbaum/copilot.lua
+- [ ] https://github.com/zbirenbaum/copilot-cmp
+- [ ] https://github.com/AndreM222/copilot-lualine
 
 # [tmux.conf](https://gist.github.com/rchatham/4a2cd1bf32eaf1f749993dbb7859dadf)
