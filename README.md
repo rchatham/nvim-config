@@ -7,6 +7,7 @@
 ### viewing
 - [ ] https://github.com/iamcco/markdown-preview.nvim
 - [ ] https://github.com/folke/zen-mode.nvim
+- [ ] https://github.com/nvim-lualine/lualine.nvim
 
 ### editing
 - [ ] https://github.com/debugloop/telescope-undo.nvim
@@ -28,6 +29,7 @@
 - [ ] https://github.com/m4xshen/hardtime.nvim
 - [ ] https://github.com/kawre/leetcode.nvim
 - [ ] https://github.com/ThePrimeagen/vim-be-good
+- [ ] https://github.com/ThePrimeagen/vim-apm
 
 ### testing
 - [ ] https://github.com/nvim-neotest/neotest
@@ -37,8 +39,20 @@
 - [ ] https://github.com/zbirenbaum/copilot.lua
 - [ ] https://github.com/zbirenbaum/copilot-cmp
 - [ ] https://github.com/AndreM222/copilot-lualine
+- [ ] https://github.com/nomnivore/ollama.nvim
 
-
+## ios: https://wojciechkulik.pl/ios/the-complete-guide-to-ios-macos-development-in-neovim
+- [ ] https://github.com/kkharji/xbase
+- [ ] https://github.com/yonaskolb/XcodeGen
+- [ ] https://github.com/tuist/tuist
+- [ ] https://github.com/MobileNativeFoundation/rules_xcodeproj
+- [ ] https://github.com/wojciech-kulik/xcodebuild.nvim
+- [ ] https://github.com/wojciech-kulik/ios-dev-starter-nvim
+- [ ] https://github.com/vadimcn/codelldb
+Tools:
+- [ ] https://github.com/CocoaPods/Xcodeproj
+- [ ] https://github.com/SolaWing/xcode-build-server
+- [ ] https://github.com/gfontenot/vim-xcode
 
 ## Inspo
 - https://github.com/ThePrimeagen/.dotfiles/tree/master/vim-2022/.config/nvim
