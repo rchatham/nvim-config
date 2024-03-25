@@ -41,7 +41,8 @@
 - [ ] https://github.com/AndreM222/copilot-lualine
 - [ ] https://github.com/nomnivore/ollama.nvim
 
-## ios: https://wojciechkulik.pl/ios/the-complete-guide-to-ios-macos-development-in-neovim
+## ios: 
+- https://wojciechkulik.pl/ios/the-complete-guide-to-ios-macos-development-in-neovim
 - [ ] https://github.com/kkharji/xbase
 - [ ] https://github.com/yonaskolb/XcodeGen
 - [ ] https://github.com/tuist/tuist
@@ -49,6 +50,7 @@
 - [ ] https://github.com/wojciech-kulik/xcodebuild.nvim
 - [ ] https://github.com/wojciech-kulik/ios-dev-starter-nvim
 - [ ] https://github.com/vadimcn/codelldb
+
 Tools:
 - [ ] https://github.com/CocoaPods/Xcodeproj
 - [ ] https://github.com/SolaWing/xcode-build-server
