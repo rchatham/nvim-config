@@ -1,20 +1,15 @@
--- {{{ keymaps
-
-local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
-vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
-vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
-vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
--- ------------------------------------------------------------------------- }}}
 -- {{{ lazy.nvim specification.
-
 return {
     "nvim-telescope/telescope.nvim",
     enabled = true,
     cmd = "Telescope",
-
-    keys = false,
-
+    -- Change this to set keys inside the config
+    keys = {
+        { "<leader>ff", function() require("telescope.builtin").find_files() end, desc = "Find files" },
+        { "<leader>fg", function() require("telescope.builtin").live_grep() end, desc = "Live grep" },
+        { "<leader>fb", function() require("telescope.builtin").buffers() end, desc = "Buffers" },
+        { "<leader>fh", function() require("telescope.builtin").help_tags() end, desc = "Help tags" },
+    },
     opts = function(_, opts)
         local actions = require("telescope.actions")
         opts.defaults = {
